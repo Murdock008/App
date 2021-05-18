@@ -1,0 +1,27 @@
+.nav-songs{
+	width: 90%;
+	position: fixed;
+	bottom: 2em;
+	background-color: white;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	left: 50%;
+	transform: translateX(-50%);
+	height: 3em;
+	border-radius: 2em;
+}
+.nav-songs div{
+	box-shadow: 0px 0px 15px black;
+	width: 3em;
+	height: 2.1em;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.nav-songs img{
+	display: flex;
+	height: 1em;
+	width: 1em;
+}
